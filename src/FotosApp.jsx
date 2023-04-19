@@ -13,18 +13,6 @@ export const FotosApp = () => {
         <>
             <h1>Fotos de colores</h1>
             <hr />
-            {/* {isLoading ? (
-                <div className="alert alert-info text-center">Loading...</div>
-            ) : (
-                data.map((quote) => (
-                    <blockquote className="blockquote text-end">
-                        <p className="mb-1">{quote.quote}</p>
-                        <footer className="blockquote-footer">
-                            {quote.author}
-                        </footer>
-                    </blockquote>
-                ))
-            )} */}
             {isLoading ? (
                 <LoadingPhoto />
             ) : (

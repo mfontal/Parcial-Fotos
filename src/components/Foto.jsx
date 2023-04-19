@@ -23,17 +23,7 @@ export const Foto = ({ foto }) => {
                     </p>
                 </div>
             </div>
-            {/* <blockquote
-                className="blockquote text-end"
-                style={{ display: 'flex' }}>
-                <p
-                    ref={pRef}
-                    className="mb-1">
-                    {foto.quote}
-                </p>
-                <footer className="blockquote-footer">{foto.author}</footer>
-            </blockquote>
-            <code>{JSON.stringify(boxSize)}</code> */}
+            
         </>
     );
 };

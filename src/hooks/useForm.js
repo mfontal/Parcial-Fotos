@@ -23,9 +23,3 @@ export const useForm = (initialForm = {}) => {
         onResetForm
     }
 }
-
-/* { //Estado con los campos del formualrio
-    username: "",
-    email: "",
-    password: ""
-} */
